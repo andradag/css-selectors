@@ -9,11 +9,11 @@ using an attribute selector to select all elements with a specific characteristi
 - Using pseudo-elements to accomplish this task.
 
 
-'''
+```
 /* Use an attribute selector to select all <a> elements that have an href value that ends with '.css' */
 a[href$='.css']::after {
   content: '📝';
   display: inline-block;
   margin-left: 3px;
 }
-'''
+```
